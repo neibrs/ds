@@ -1,0 +1,12 @@
+version: '3'
+
+services:
+  docker_docker_ai:
+    container_name: docker_docker_ai
+    build:
+      context: .
+      dockerfile: ./.docker/Dockerfile
+    ports:
+      - 8081:80
+    volumes:
+      - ./web:/var/www/html
