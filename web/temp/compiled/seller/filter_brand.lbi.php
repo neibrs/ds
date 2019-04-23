@@ -2,10 +2,10 @@
 	<div class="letter">
 		<ul>
 			<li><a href="javascript:void(0);" data-letter=""><?php echo $this->_var['lang']['all_brand']; ?></a></li>
-			<?php $_from = $this->_var['letter']; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array'); }; $this->push_vars('', 'letter_0_53352400_1555463711');if (count($_from)):
-    foreach ($_from AS $this->_var['letter_0_53352400_1555463711']):
+			<?php $_from = $this->_var['letter']; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array'); }; $this->push_vars('', 'letter_0_88580300_1555861398');if (count($_from)):
+    foreach ($_from AS $this->_var['letter_0_88580300_1555861398']):
 ?>
-            <li><a href="javascript:void(0);" data-letter="<?php echo $this->_var['letter_0_53352400_1555463711']; ?>"><?php echo $this->_var['letter_0_53352400_1555463711']; ?></a></li>
+            <li><a href="javascript:void(0);" data-letter="<?php echo $this->_var['letter_0_88580300_1555861398']; ?>"><?php echo $this->_var['letter_0_88580300_1555861398']; ?></a></li>
             <?php endforeach; endif; unset($_from); ?><?php $this->pop_vars();; ?>
 			<li><a href="javascript:void(0);" data-letter="QT"><?php echo $this->_var['lang']['other']; ?></a></li>
 		</ul>

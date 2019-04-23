@@ -62,14 +62,14 @@
                         <div class="screeItme mt10">
                             <form method="post" id="selectForm" name="selectForm">
                                 <strong class="fl lh mr10"><?php echo $this->_var['lang']['select_year_month']; ?>：</strong>
-                                <!--<?php $_from = $this->_var['start_date_arr']; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array'); }; $this->push_vars('k', 'start_date_0_37430400_1555463704');if (count($_from)):
-    foreach ($_from AS $this->_var['k'] => $this->_var['start_date_0_37430400_1555463704']):
+                                <!--<?php $_from = $this->_var['start_date_arr']; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array'); }; $this->push_vars('k', 'start_date_0_90621100_1555861389');if (count($_from)):
+    foreach ($_from AS $this->_var['k'] => $this->_var['start_date_0_90621100_1555861389']):
 ?>-->
                                 <?php if ($this->_var['k'] > 0): ?>
                                 <span class="bolang">&nbsp;&nbsp;+&nbsp;&nbsp;</span>
                                 <?php endif; ?>
                                 <div class="text_time" id="text_time_start">
-                                    <input type="text" class="text text_2 mr0" name="year_month[]" id="year_month_<?php echo $this->_var['k']; ?>" value="<?php echo $this->_var['start_date_0_37430400_1555463704']; ?>" autocomplete="off" readonly>
+                                    <input type="text" class="text text_2 mr0" name="year_month[]" id="year_month_<?php echo $this->_var['k']; ?>" value="<?php echo $this->_var['start_date_0_90621100_1555861389']; ?>" autocomplete="off" readonly>
                                 </div>
                                 <!--<?php endforeach; endif; unset($_from); ?><?php $this->pop_vars();; ?>-->
                                 <input type="hidden" name="is_multi" value="1" />

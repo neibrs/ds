@@ -1,9 +1,9 @@
 <div class="tabmenu">
 	<ul class="tab">
-		<?php $_from = $this->_var['tab_menu']; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array'); }; $this->push_vars('', 'menu_0_25612100_1555463561');if (count($_from)):
-    foreach ($_from AS $this->_var['menu_0_25612100_1555463561']):
+		<?php $_from = $this->_var['tab_menu']; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array'); }; $this->push_vars('', 'menu_0_79640100_1555861379');if (count($_from)):
+    foreach ($_from AS $this->_var['menu_0_79640100_1555861379']):
 ?>
-		<li <?php if ($this->_var['menu_0_25612100_1555463561']['curr']): ?>class="active"<?php endif; ?>><a href="<?php if ($this->_var['menu_0_25612100_1555463561']['href']): ?><?php echo $this->_var['menu_0_25612100_1555463561']['href']; ?><?php else: ?>javascript:void(0);<?php endif; ?>" <?php if ($this->_var['menu_0_25612100_1555463561']['ectype']): ?>ectype="<?php echo $this->_var['menu_0_25612100_1555463561']['ectype']; ?>"<?php endif; ?> <?php if ($this->_var['menu_0_25612100_1555463561']['ext']): ?><?php echo $this->_var['menu_0_25612100_1555463561']['ext']; ?><?php endif; ?>><?php echo $this->_var['menu_0_25612100_1555463561']['text']; ?></a></li>
+		<li <?php if ($this->_var['menu_0_79640100_1555861379']['curr']): ?>class="active"<?php endif; ?>><a href="<?php if ($this->_var['menu_0_79640100_1555861379']['href']): ?><?php echo $this->_var['menu_0_79640100_1555861379']['href']; ?><?php else: ?>javascript:void(0);<?php endif; ?>" <?php if ($this->_var['menu_0_79640100_1555861379']['ectype']): ?>ectype="<?php echo $this->_var['menu_0_79640100_1555861379']['ectype']; ?>"<?php endif; ?> <?php if ($this->_var['menu_0_79640100_1555861379']['ext']): ?><?php echo $this->_var['menu_0_79640100_1555861379']['ext']; ?><?php endif; ?>><?php echo $this->_var['menu_0_79640100_1555861379']['text']; ?></a></li>
 		<?php endforeach; else: ?>
 		<li class="active"><a href="javascript:;"><?php echo $this->_var['ur_here']; ?></a></li>
 		<?php endif; unset($_from); ?><?php $this->pop_vars();; ?>							

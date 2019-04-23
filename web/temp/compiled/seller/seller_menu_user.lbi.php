@@ -6,10 +6,10 @@
 				<a href="javascript:void(0);"><?php echo $this->_var['lang']['add_fast_door']; ?></a>
 			</div>
 			<ul id="seller_center_left_menu" style="padding-top:10px;">
-				<?php $_from = $this->_var['user_menu_pro']; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array'); }; $this->push_vars('', 'menu_0_57532600_1555463712');if (count($_from)):
-    foreach ($_from AS $this->_var['menu_0_57532600_1555463712']):
+				<?php $_from = $this->_var['user_menu_pro']; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array'); }; $this->push_vars('', 'menu_0_22172000_1555861401');if (count($_from)):
+    foreach ($_from AS $this->_var['menu_0_22172000_1555861401']):
 ?>
-				<li id="quicklink_<?php echo $this->_var['menu_0_57532600_1555463712']['action']; ?>" data-action="<?php echo $this->_var['menu_0_57532600_1555463712']['action']; ?>" style="display: block;"><a href="<?php echo $this->_var['menu_0_57532600_1555463712']['url']; ?>"> <?php echo $this->_var['menu_0_57532600_1555463712']['label']; ?> </a></li>
+				<li id="quicklink_<?php echo $this->_var['menu_0_22172000_1555861401']['action']; ?>" data-action="<?php echo $this->_var['menu_0_22172000_1555861401']['action']; ?>" style="display: block;"><a href="<?php echo $this->_var['menu_0_22172000_1555861401']['url']; ?>"> <?php echo $this->_var['menu_0_22172000_1555861401']['label']; ?> </a></li>
 				<?php endforeach; endif; unset($_from); ?><?php $this->pop_vars();; ?>	
 			</ul>
 			<div class="sitemap-menu">
@@ -22,12 +22,12 @@
 					<span id="closeSitemap" class="close"></span>
 				</div>
 				<div class="content" id="quicklink_list">
-					<?php $_from = $this->_var['seller_menu']; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array'); }; $this->push_vars('', 'menu_0_57537800_1555463712');if (count($_from)):
-    foreach ($_from AS $this->_var['menu_0_57537800_1555463712']):
+					<?php $_from = $this->_var['seller_menu']; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array'); }; $this->push_vars('', 'menu_0_22179700_1555861401');if (count($_from)):
+    foreach ($_from AS $this->_var['menu_0_22179700_1555861401']):
 ?>
 					<dl>
-						<dt><?php echo $this->_var['menu_0_57537800_1555463712']['label']; ?></dt>
-						<?php $_from = $this->_var['menu_0_57537800_1555463712']['children']; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array'); }; $this->push_vars('', 'child');if (count($_from)):
+						<dt><?php echo $this->_var['menu_0_22179700_1555861401']['label']; ?></dt>
+						<?php $_from = $this->_var['menu_0_22179700_1555861401']['children']; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array'); }; $this->push_vars('', 'child');if (count($_from)):
     foreach ($_from AS $this->_var['child']):
 ?>
 						<dd <?php if ($this->_var['child']['status']): ?>class="selected"<?php endif; ?>>
