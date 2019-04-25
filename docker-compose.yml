@@ -1,8 +1,8 @@
 version: '3'
 
 services:
-  docker_docker_dsc:
-    container_name: docker_docker_273
+  dsc:
+    container_name: dsc
     build:
       context: .
       dockerfile: ./.docker/Dockerfile
