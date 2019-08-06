@@ -606,7 +606,7 @@ input.btn25{ height: 25px;line-height: 23px;}
 .user-form .form-input:focus{ border-color: #afafaf; }*/
 .user-form .form-input[disabled="disabled"]{ background-color:#ebebe4;}
 .user-form .form-input[disabled="disabled"]:hover,
-.user-form .form-input[disabled="disabled"]:foucs{ border:1px solid #d2d2d2;}
+.user-form .form-input[disabled="disabled"]:focus{ border:1px solid #d2d2d2;}
 .user-form .form-value .notic{ float:left; color:#8c8c8c;}
 .user-form .form-input-long{ width: 500px; }
 .user-form .mod-select{ height: 38px; width: 198px; margin-right: 10px;}
